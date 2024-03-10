@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Negative sort tests" verbose="1">
+    <test name="Negative">
+        <groups>
+            <run>
+                <include name="negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.TestSortShaker"/>
+            <class name="org.example.TestSortCombat"/>
+            <class name="org.example.TestSortInsert"/>
+            <class name="org.example.TestSortChoose"/>
+        </classes>
+    </test>
+</suite>

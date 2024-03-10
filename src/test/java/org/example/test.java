@@ -1,6 +1,6 @@
 package org.example;
 
-import static org.example.Calculator.*;
+import static org.example.Sort.*;
 
 public class test {
     public static void main(String[] args) {
