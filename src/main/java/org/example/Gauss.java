@@ -1,7 +1,11 @@
 package org.example;
 
 public class Gauss {
-    public static double[] methodGauss(double[][] matrix, double[] vector){
+    public static double[] methodGauss(double[][] matrix, double[] vector) throws Exception {
+        if (matrix.length != vector.length){
+            throw new MatrixException("Ошибка размерности");
+        }
+
         int len = matrix.length;
 
         for (int i = 0; i < len; i++){
@@ -20,10 +24,16 @@ public class Gauss {
             vector[i] = vector[maxIndex];
             vector[maxIndex] = tempVector;
 
+            if (Math.abs(matrix[i][i]) < 1e-9) {
+                if (Math.abs(vector[i]) < 1e-9) {
+                    throw new MatrixException("Система имеет множество решений");
+                }
+                throw new MatrixException("Система не имеет решения");
+            }
             // прямой ход
             for (int j = i+1; j < len; j++){
                 double factor = matrix[j][i] / matrix[i][i];
-                for (int k = i; i < len; k++){
+                for (int k = i; k < len; k++){
                     matrix[j][k] -= factor * matrix[i][k];
                 }
                 vector[j] -= factor * vector[i];
@@ -41,5 +51,10 @@ public class Gauss {
             }
         }
         return x;
+    }
+    public static class MatrixException extends Exception {
+        public MatrixException(String massege){
+            super(massege);
+        }
     }
 }
