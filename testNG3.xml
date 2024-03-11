@@ -8,10 +8,7 @@
             </run>
         </groups>
         <classes>
-            <class name="org.example.TestSortShaker"/>
-            <class name="org.example.TestSortCombat"/>
-            <class name="org.example.TestSortInsert"/>
-            <class name="org.example.TestSortChoose"/>
+            <class name="org.example.TestSort"/>
         </classes>
     </test>
 </suite>
