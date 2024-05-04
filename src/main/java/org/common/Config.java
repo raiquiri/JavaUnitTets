@@ -4,6 +4,8 @@ public class Config {
 
     public static final String BROWSER = "Edge";
 
+    public static final String URL = "https://ya.ru";
+
     /*
     *  Clear browser cookies after test
     */

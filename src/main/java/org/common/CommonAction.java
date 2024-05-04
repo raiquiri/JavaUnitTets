@@ -24,7 +24,7 @@ public class CommonAction {
                 driver = new FirefoxDriver();
                 break;
             default:
-                Assert.fail("Inccorect browser");
+                Assert.fail("Incorrect browser");
                 break;
         }
 

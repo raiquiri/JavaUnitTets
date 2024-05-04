@@ -7,6 +7,8 @@ import previousWorks.example.Gauss;
 import static previousWorks.example.Gauss.methodGauss;
 
 public class TestGauss {
+
+
     @Test(groups = "slau")
     void testGauss() throws Exception {
         // Arange - создание окружения

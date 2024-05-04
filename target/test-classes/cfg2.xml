@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="SLAU tests" verbose="1">
-    <test name="SLAU">
+<suite name="AuthenticationTest" verbose="1">
+    <test name="Authentication">
         <groups>
             <run>
-                <include name="slau"/>
+                <include name="parse"/>
             </run>
         </groups>
         <classes>
-            <class name="org.example.TestGauss"/>
+            <class name="org.parseText.ParseTextTest"/>
         </classes>
     </test>
 </suite>

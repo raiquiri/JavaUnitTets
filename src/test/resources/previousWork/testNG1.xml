@@ -9,7 +9,7 @@
             </run>
         </groups>
         <classes>
-            <class name="org.example.TestSort"/>
+            <class name="previousWorks.example.TestSort"/>
         </classes>
     </test>
 </suite>

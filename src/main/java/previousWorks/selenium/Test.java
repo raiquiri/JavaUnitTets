@@ -1,11 +1,13 @@
 package previousWorks.selenium;
 
+import org.common.CommonAction;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.pages.basePage.BasePage;
 import org.pages.homePage.HomePage;
 
 import java.time.Duration;
@@ -14,11 +16,12 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) throws InterruptedException {
         // иницилизация драйвера + неявное ожидание
-        WebDriver driver = new EdgeDriver();
+        WebDriver driver = CommonAction.createDriver();
+        BasePage basePage = new BasePage(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         // открытие страницы
-        driver.get("https://ya.ru/");
+        basePage.open("https://ya.ru/");
 
         By closeButtonBy = By.xpath("/html/body/div[19]/button");
         By loginButtonBy = By.xpath("//a[@class='home-link2 headline__personal-enter home-link2_color_black']");
@@ -45,6 +48,12 @@ public class Test {
 
         driver.findElement(profileLinkBy).click();
         Thread.sleep(2000);
+        System.out.println(driver.getPageSource());
+
+        By iFrameBy = By.xpath("//iframe[@class='usermenu-portal__iframe']");
+        WebElement iFrame = driver.findElement(iFrameBy);
+        driver.switchTo().frame(iFrame);
+
         driver.findElement(By.xpath("//img[@class='UserPic-Image']")).click();
         //System.out.println(driver.findElement(profileNameBy).getAttribute("innerText"));
         /*System.out.println("start");

@@ -20,8 +20,4 @@ public class BasePage {
         driver.get(url);
     }
 
-    public WebElement waitElementIsVisible(WebElement element) {
-        new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.visibilityOf(element));
-        return element;
-    }
 }
