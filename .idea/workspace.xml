@@ -5,53 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7030b2d-8c16-4808-92da-1f528cb73a63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/common/CommonAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/common/CommonAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/common/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pages/basePage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pages/basePage/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pages/homePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pages/homePage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/previousWorks/selenium/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/previousWorks/selenium/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/authentication/AuthenticationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/baseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/baseTest/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/calculation/CalculationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/parseText/ParseTextTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/previousWorks/example/TestGauss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/previousWorks/example/TestGauss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/archetype.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/common/CommonAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/common/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/constants/Constant$TimeoutVariable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/constants/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/pages/basePage/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/pages/homePage/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/previousWorks/example/Gauss$MatrixException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/previousWorks/example/Gauss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/previousWorks/example/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/previousWorks/selenium/Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/previousWorks/selenium/FireFox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/previousWorks/selenium/FireFox2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/previousWorks/selenium/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/previousWorks/selenium/YandexMenuExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/authentication/AuthenticationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/baseTest/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/calculation/CalculationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/parseText/ParseTextTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/previousWorks/example/TestGauss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/previousWorks/example/TestSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +67,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/жопик/IdeaProjects/OKIS/src/test/resources/previousWork",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -134,6 +88,23 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/жопик/IdeaProjects/OKIS/src/test/resources/cfg2.xml">
+    <configuration name="AuthenticationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OKIS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.authentication" />
+      <option name="MAIN_CLASS_NAME" value="org.authentication.AuthenticationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/жопик/IdeaProjects/OKIS/src/test/resources/cfg2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OKIS" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/cfg2.xml" />
@@ -171,24 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParseTextTest.licenseParseTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OKIS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.parseText.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.parseText" />
-      <option name="MAIN_CLASS_NAME" value="org.parseText.ParseTextTest" />
-      <option name="METHOD_NAME" value="licenseParseTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ParseTextTest.supportParseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OKIS" />
       <extension name="coverage">
@@ -212,8 +165,8 @@
         <item itemvalue="TestNG.C:/Users/жопик/IdeaProjects/OKIS/src/test/resources/cfg2.xml" />
         <item itemvalue="TestNG.C:/Users/жопик/IdeaProjects/OKIS/src/test/resources/cfg.xml" />
         <item itemvalue="TestNG.ParseTextTest" />
+        <item itemvalue="TestNG.AuthenticationTest" />
         <item itemvalue="TestNG.ParseTextTest.supportParseTest" />
-        <item itemvalue="TestNG.ParseTextTest.licenseParseTest" />
       </list>
     </recent_temporary>
   </component>
